@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fefefeba;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.skeleton-wz5ujko6v7v:empty {
+  position: relative;
+  height: 700px;
+  background-color: #ffffff;
+  border-radius: 9px 0px 0px 0px;
+  background-image: linear-gradient(#cccccc 20px, transparent 0),
+    linear-gradient(#cccccc 20px, transparent 0),
+    radial-gradient(
+      circle 17.5px at 17.5px 17.5px,
+      #cccccc 16.5px,
+      transparent 17.5px
+    ),
+    linear-gradient(#cccccc 200px, transparent 0),
+    linear-gradient(#e0e0e0 20px, transparent 0),
+    linear-gradient(#e0e0e0 20px, transparent 0),
+    radial-gradient(
+      circle 17.5px at 17.5px 17.5px,
+      #e0e0e0 16.5px,
+      transparent 17.5px
+    ),
+    linear-gradient(#e0e0e0 200px, transparent 0);
+  background-repeat: repeat-y;
+  background-size: 300px 300px, 300px 300px, 35px 300px, 360px 300px,
+    300px 300px, 300px 300px, 35px 300px, 360px 300px;
+  background-position: left 450px top 270px, left 450px top 244px,
+    left 400px top 236px, left 400px top 20px, left 70px top 270px,
+    left 70px top 244px, left 20px top 236px, left 20px top 20px;
+}
+.skeleton-wz5ujko6v7v:empty:before {
+  content: " ";
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  height: 700px;
+  -webkit-mask-image: linear-gradient(
+    100deg,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0) 80%
+  );
+  -webkit-mask-repeat: repeat-y;
+  -webkit-mask-size: 50px 700px;
+  -webkit-mask-position: -20% 0;
+  background-image: linear-gradient(rgba(102, 102, 102, 1) 20px, transparent 0),
+    linear-gradient(rgba(102, 102, 102, 1) 20px, transparent 0),
+    radial-gradient(
+      circle 17.5px at 17.5px 17.5px,
+      rgba(102, 102, 102, 1) 16.5px,
+      transparent 17.5px
+    ),
+    linear-gradient(rgba(102, 102, 102, 1) 200px, transparent 0),
+    linear-gradient(rgba(102, 102, 102, 1) 20px, transparent 0),
+    linear-gradient(rgba(102, 102, 102, 1) 20px, transparent 0),
+    radial-gradient(
+      circle 17.5px at 17.5px 17.5px,
+      rgba(102, 102, 102, 1) 16.5px,
+      transparent 17.5px
+    ),
+    linear-gradient(rgba(102, 102, 102, 1) 200px, transparent 0);
+  background-repeat: repeat-y;
+  background-size: 300px 300px, 300px 300px, 35px 300px, 360px 300px,
+    300px 300px, 300px 300px, 35px 300px, 360px 300px;
+  background-position: left 450px top 270px, left 450px top 244px,
+    left 400px top 236px, left 400px top 20px, left 70px top 270px,
+    left 70px top 244px, left 20px top 236px, left 20px top 20px;
+  animation: shineForSkeleton-wz5ujko6v7v 2s infinite;
+}
+@keyframes shineForSkeleton-wz5ujko6v7v {
+  to {
+    -webkit-mask-position: 120% 0;
+  }
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #00b98e #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #00b98e;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+#cityNameFound {
+  font-weight: bold;
+}
+#zipCodeFound {
+  font-weight: bold;
+}
